@@ -1,4 +1,5 @@
-from flask import Flask, psycopg2
+import psycopg2
+from flask import Flask
 app = Flask(__name__)
 
 @app.route('/')
